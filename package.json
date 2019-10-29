@@ -1,0 +1,35 @@
+{
+	"name": "Aiko",
+	"version": "0.0.1",
+	"description": "Aiko, an easy to understand bot, based on Discord.js Library",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"engines": {
+		"node": "8.11.3"
+	},
+	"author": "youKnowOwO",
+	"license": "MIT",
+	"dependencies": {
+		"better-sqlite-pool": "^0.1.2",
+		"canvas": "github:Automattic/node-canvas#92b192447e9b9ae98da0f801e4e34afdd1dc1ef8",
+		"canvas-constructor": "github:kyranet/canvasConstructor",
+		"chart-constructor": "github:QuarksWorks/chartConstructor#master",
+		"discord.js": "^11.4.2",
+		"enmap": "^4.3.2",
+		"enmap-level": "^2.1.0",
+		"erlpack": "discordapp/erlpack",
+		"gifencoder": "^1.1.0",
+		"glur": "^1.1.2",
+		"graceful-fs": "^4.1.11",
+		"moment": "^2.22.2",
+		"moment-duration-format": "^2.2.2",
+		"node-opus": "^0.3.0",
+		"node-superfetch": "^0.1.2",
+		"simple-youtube-api": "^5.0.2",
+		"sqlite": "^3.0.0",
+		"sqlite3": "^4.0.2",
+		"ytdl-core": "^0.24.0"
+	}
+}
